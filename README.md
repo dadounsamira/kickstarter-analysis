@@ -16,13 +16,21 @@ Louise **Fever** reached the goal on a short amount of time, Louise wants to und
 ### Analysis of Outcomes Based on Launch Date
 
 To visualize campaign outcomes based on Launch date, a pivot table and graphing were created based on kickstarter worksheet, applying the following fields :
+
 *Parent category and years in filter
+
 *Outcomes in the columns
+
 *Outcomes in the Values
+
 *Date created conversion in Rows
+
 *the parent category is filtred on theater
+
 *The row labels are changed to display the months of the year, and the campaign outcomes are sorted in descending order
+
 *A line chart is created showing the number of successful, failed, or canceled projects by month
+
 [here]
 
 ### Analysis of Outcomes Based on Goals
