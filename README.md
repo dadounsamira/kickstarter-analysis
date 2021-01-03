@@ -26,7 +26,7 @@ To visualize campaign outcomes based on Launch date, a pivot table and graphing 
 [here]
 
 ### Analysis of Outcomes Based on Goals
-[here]
+![here](/resources/Outcomes_vs_Goals.png)
 For this analysis we used the function COUNTIFS to visualize  the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis, applying the following fields:
 * Goal, Number Successful,Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed and Percentage Canceled in columns 
 * Amount ranging between less than 1000 and greater than 500000 in rows so  so projects can be grouped based on their goal amount
