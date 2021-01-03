@@ -5,7 +5,8 @@ The purpose of this analysis is to provide Louise with readable documentation to
 
 
 ### Purpose
-Louise **Fever** reached the goal on a short amount of time, Louise wants to understand the elemets that play a significant role on determing the success or failure of a compaign. This analysis will shed light on how some factors contribute to success or failure to a compaign such as when to launch a compaign,the bakers preferences and countries that get the most funds. Using this kickstarter dataset will help deliver outcomes in respect of Louise needs.
+
+Louise play  **Fever** reached the goal on a short amount of time, Louise wants to understand the elemets that play a significant role on determing the success or failure of a compaign. This analysis will shed light on how some factors contribute to success or failure to a compaign such as when to launch a compaign,the bakers preferences and countries that get the most funds. Using this kickstarter dataset will help deliver outcomes in respect of Louise needs.
 Included the source of this dataset [here](/Kickstarter_Challenge .xlsx.zip)
 
 
@@ -32,13 +33,17 @@ To visualize campaign outcomes based on Launch date, a pivot table and graphing 
 
 *A line chart is created showing the number of successful, failed, or canceled projects by month
 
-[here]
+here is the graphic that shows the successful, canceled and failed campaign based on the month of launch, best time to launch fundraising is between Apil and August 
+![here](/resources/Theater_Outcomes_vs_Launch.png)
+
+
 
 ### Analysis of Outcomes Based on Goals
-![here](/resources/Outcomes_vs_Goals.png)
+
 For this analysis we used the function COUNTIFS to visualize  the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis, applying the following fields:
 * Goal, Number Successful,Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed and Percentage Canceled in columns 
 * Amount ranging between less than 1000 and greater than 500000 in rows so  so projects can be grouped based on their goal amount
 
 The formula for the Countifs is : =COUNTIFS(kickstarter_challenge!D:D, "<=1000", kickstarter_challenge!F:F,"successful",kickstarter_challenge!R:R,"plays")
 
+![here](/resources/Outcomes_vs_Goals.png)
