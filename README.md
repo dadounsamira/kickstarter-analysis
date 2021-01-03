@@ -79,7 +79,6 @@ the other limitation is the dataset contain campaign launched for a small amount
 
 ### What are some other possible tables and/or graphs that we could create?
 
-*Outcomes based on category to show which category attracted most funds
-*Add filter plays in Outcomes by launch date
+*Outcomes based on category to show which category attracted most funds and Add filter plays in Outcomes by launch date.
 
 
