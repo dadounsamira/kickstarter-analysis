@@ -5,7 +5,7 @@ the purpose of this analysis is to provide Louise with readable documentation to
 
 
 ### Purpose
-Louise **Fever** reached the goal on a short amount of time, Louise wants to understand the elemets that play a significant role on determing the success or failure of a compaign. This analysis will shine light on how some factors contribute to success or failure to a compaign such as when to launch a compaign,the bakers preferences and countries that get the most funds. Using this kickstarter dataset will help deliver outcomes in respect of Louise needs.Included the source of this dataset [here](/kickstarter_Challenge.zip).
+Louise **Fever** reached the goal on a short amount of time, Louise wants to understand the elemets that play a significant role on determing the success or failure of a compaign. This analysis will shine light on how some factors contribute to success or failure to a compaign such as when to launch a compaign,the bakers preferences and countries that get the most funds. Using this kickstarter dataset will help deliver outcomes in respect of Louise needs.Included the source of this dataset [here](/Kickstarter_Challenge .xlsx.zip).
 
 
 
@@ -14,5 +14,11 @@ Louise **Fever** reached the goal on a short amount of time, Louise wants to und
 
 
 ### Analysis of Outcomes Based on Launch Date
+
+The goal of this analysis is to determine when is the right time to launch a compaign, to visualize campaign outcomes based on launch date a pivot table and graphing in excel were used based on kickstarter worksheet.
+*parent category and years using the years function
+*outcomes in the columns
+*outcomes in the values
+*date created conversion in the rows
 
 
