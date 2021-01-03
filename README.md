@@ -33,7 +33,9 @@ To visualize campaign outcomes based on Launch date, a pivot table and graphing 
 
 *A line chart is created showing the number of successful, failed, or canceled projects by month
 
-here is the graphic that shows the successful, canceled and failed campaign based on the month of launch, best time to launch fundraising is between Apil and August 
+here is the graphic that shows the successful, canceled and failed campaign based on the month of launch, best time to launch fundraising is between Apil and August.
+
+
 ![here](/resources/Theater_Outcomes_vs_Launch.png)
 
 
@@ -42,8 +44,9 @@ here is the graphic that shows the successful, canceled and failed campaign base
 
 For this analysis we used the function COUNTIFS to visualize  the relationship between the goal-amount ranges on the x-axis and the percentage of successful, failed, or canceled projects on the y-axis, applying the following fields:
 * Goal, Number Successful,Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed and Percentage Canceled in columns 
-* Amount ranging between less than 1000 and greater than 500000 in rows so  so projects can be grouped based on their goal amount
+* Amount ranging between less than 1000 and greater than 50000 in rows so  so projects can be grouped based on their goal amount
 
 The formula for the Countifs is : =COUNTIFS(kickstarter_challenge!D:D, "<=1000", kickstarter_challenge!F:F,"successful",kickstarter_challenge!R:R,"plays")
+
 
 ![here](/resources/Outcomes_vs_Goals.png)
